@@ -15,7 +15,7 @@ n = n /2;
 else {
 n = 3*n+1;	
 }
-System.out.println(n);
+System.out.println(n); o
 }
 
 }
