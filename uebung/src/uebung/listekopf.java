@@ -10,7 +10,9 @@ public class listekopf {
 	public void add(int wert){
 		kopf.add( new listen (wert));
 	}
-
+	public int getGroesse(){
+		return kopf.getGroesse(0);
+	
 	public String toString(){
 		return kopf.toString();
 	}

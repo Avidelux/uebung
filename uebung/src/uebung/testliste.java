@@ -6,7 +6,10 @@ public class testliste{
 		listekopf liste = new listekopf (3);
 		liste.add(5);
 		liste.add(7);
+		liste.add(999);
 		System.out.println(liste);
+		System.out.println(liste.getGroesse());
+	
 	}
 
 
