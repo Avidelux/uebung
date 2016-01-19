@@ -17,10 +17,16 @@ public class listen {
 			next.add(neu);
 			
 			}
-		
 	}
 
-
+public String toString (){
+	if(next == null){
+		return ""+inhalt;
+	}
+	else{
+		return ""+inhalt+" "next.toString();
+	}
+}
 
 
 

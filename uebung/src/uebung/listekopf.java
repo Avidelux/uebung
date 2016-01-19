@@ -11,4 +11,7 @@ public class listekopf {
 		kopf.add( new listen (wert));
 	}
 
+	public String toString(){
+		return kopf.toString();
+	}
 }
