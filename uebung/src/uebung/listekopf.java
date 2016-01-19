@@ -1,10 +1,10 @@
 package uebung;
 
 public class listekopf {
-
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-	}
-
+	private listen kopf;
+	
+	public listekopf (int wert){
+		kopf = new listen (wert);
+	
+ }
 }
