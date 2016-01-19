@@ -12,7 +12,7 @@ public class listekopf {
 	}
 	public int getGroesse(){
 		return kopf.getGroesse(0);
-	
+	}
 	public String toString(){
 		return kopf.toString();
 	}
