@@ -9,6 +9,16 @@ public class listen {
 		this.inhalt=inhalt;
 	}
 	
+	public void add(listen neu){
+		if(next==null){
+			next=neu;
+			}
+		else {
+			next.add(neu);
+			
+			}
+		
+	}
 
 
 
