@@ -24,7 +24,7 @@ public String toString (){
 		return ""+inhalt;
 	}
 	else{
-		return ""+inhalt+" "next.toString();
+		return ""+inhalt+" "+next.toString();
 	}
 }
 
