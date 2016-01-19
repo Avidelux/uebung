@@ -5,6 +5,10 @@ public class listekopf {
 	
 	public listekopf (int wert){
 		kopf = new listen (wert);
-	
- }
+	}
+
+	public void add(int wert){
+		kopf.add( new listen (wert));
+	}
+
 }
